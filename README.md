@@ -3,7 +3,7 @@ About pytzer-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytzer-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/mvdh7/pytzer
+Home: https://pytzer.hseao3.group
 
 Package license: GPL-3.0-only
 

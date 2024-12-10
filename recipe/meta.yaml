@@ -1,5 +1,5 @@
 {% set name = "pytzer" %}
-{% set version = "0.5.3" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytzer-{{ version }}.tar.gz
-  sha256: 95149ae72814630348cfd83ba8bd4ef0677c5c6b7d01f2fa1245d40ccfec1069
+  sha256: d6ac57c1cdc02e100f7a07272f49d67b6cdd5aac1f5dd57d551356dbcbc8c8c0
 
 build:
   noarch: python
@@ -18,15 +18,10 @@ requirements:
   host:
     - python >=3.8
     - setuptools
-    - jax
-    - numpy
-    - scipy
     - pip
   run:
     - python >=3.8
     - jax
-    - numpy
-    - scipy
 
 test:
   imports:
@@ -40,7 +35,7 @@ about:
   summary: The Pitzer model for chemical activities and equilibria in aqueous solutions in Python
   license: GPL-3.0-only
   license_file: LICENSE
-  home: https://github.com/mvdh7/pytzer
+  home: https://pytzer.hseao3.group
 
 extra:
   recipe-maintainers:
